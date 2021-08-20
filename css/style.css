@@ -1,13 +1,19 @@
+:root{
+    --nav-width: 310px;
+}
 body header #navbar {
     position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
-    width: 310px;
+    width: var(--nav-width);
     border: 2px solid #ccc;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+}
+*{
+    color: #5b5959;
 }
 body header #navbar #header-4 {
     font-size: 1.5em;
@@ -22,10 +28,17 @@ body header #navbar #nav-elements {
     height: fit-content;
     text-decoration: none;
     padding: 0px 16px;
-    color: #5b5959;
     font-size: 16px;
 }
 body #main-doc {
     position: relative;
-    left: 310px;
+    margin-left: var(--nav-width);
+    padding: 10px;
+    font-family: -webkit-pictograph;
+}
+code {
+    background: #f9f9f9;
+    padding: 24px;
+    display: block;
+    border-radius: 6px;
 }
