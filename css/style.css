@@ -1,0 +1,21 @@
+body header #navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: fit-content;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+body header #navbar #header-4 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+body header #navbar #nav-elements {
+    display: flex;
+    flex-basis: 100%;
+    border-top: 2px solid #ccc;
+    
+}
