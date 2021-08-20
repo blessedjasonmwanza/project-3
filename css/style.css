@@ -68,7 +68,11 @@ body main section p {
         z-index: 999;
     }
     body #main-doc{
-        margin-top: 200px;
+        position: fixed;
+        bottom: 0px;
+        top: 202px;
+        left: 0px;
+        right: 0px;
         margin-left: 0px;
     }
     body header #navbar #nav_elements{
