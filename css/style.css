@@ -17,7 +17,8 @@ body header #navbar {
 }
 body header #navbar #header-4 {
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 500;
+    color: black;
 }
 body header #navbar #nav-elements {
     display: flex;
@@ -34,6 +35,8 @@ body #main-doc {
     position: relative;
     margin-left: var(--nav-width);
     padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-family: -webkit-pictograph;
 }
 code {
@@ -41,4 +44,11 @@ code {
     padding: 24px;
     display: block;
     border-radius: 6px;
+}
+body main section h2 {
+    color: rgb(49, 46, 46);
+    font-weight: 700;
+}
+body main section p {
+    margin-left: 15px;
 }
