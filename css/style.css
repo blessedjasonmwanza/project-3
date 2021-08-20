@@ -17,5 +17,11 @@ body header #navbar #nav-elements {
     display: flex;
     flex-basis: 100%;
     border-top: 2px solid #ccc;
-    
+    align-items: center;
+    align-content: center;
+    height: fit-content;
+    text-decoration: none;
+    padding: 0px 16px;
+    color: #5b5959;
+    font-size: 16px;
 }
